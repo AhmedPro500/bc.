@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "M"
 var adminprefix = 'M'
 
-
+client.user.setGame(`Mhelp - Messenger`,'https://www.twitch.tv/tarikrs');
 //bc
 
 client.on("message", message => {
